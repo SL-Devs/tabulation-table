@@ -212,7 +212,7 @@ const MinorSports = () => {
           justifyContent: "center",
           padding: "20px",
           backgroundColor: "rgb(0, 114, 187)",
-          color: "white",
+          color: "yellow",
         }}
       >
         <Typography
