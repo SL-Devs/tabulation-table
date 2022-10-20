@@ -40,10 +40,10 @@ const MinorSports = () => {
       DartMen: data && data["Dart(Men)"].sphinx,
       DartWomen: data && data["Dart(Women)"].sphinx,
       Sackrace: data && data["Sack Race"].sphinx,
-      SepakTakraw: 10,
-      PosterMaking: 10,
+      SepakTakraw: data && data["Sepak Takraw"].sphinx,
+      PosterMaking: data && data["Poster Making"].sphinx,
       Patintero: 10,
-      RunningMan: 10,
+      RunningMan: data && data["Running Man"].sphinx,
       WordFactoryScribble: 10,
       Total:
         data &&
@@ -80,10 +80,10 @@ const MinorSports = () => {
       DartMen: data && data["Dart(Men)"].phoenix,
       DartWomen: data && data["Dart(Women)"].phoenix,
       Sackrace: data && data["Sack Race"].phoenix,
-      SepakTakraw: 10,
-      PosterMaking: 10,
+      SepakTakraw: data && data["Sepak Takraw"].phoenix,
+      PosterMaking: data && data["Poster Making"].phoenix,
       Patintero: 10,
-      RunningMan: 10,
+      RunningMan: data && data["Running Man"].phoenix,
       WordFactoryScribble: 10,
       Total:
         data &&
@@ -120,10 +120,10 @@ const MinorSports = () => {
       DartMen: data && data["Dart(Men)"].griffin,
       DartWomen: data && data["Dart(Women)"].griffin,
       Sackrace: data && data["Sack Race"].griffin,
-      SepakTakraw: 10,
-      PosterMaking: 10,
+      SepakTakraw: data && data["Sepak Takraw"].griffin,
+      PosterMaking: data && data["Poster Making"].griffin,
       Patintero: 10,
-      RunningMan: 10,
+      RunningMan: data && data["Running Man"].griffin,
       WordFactoryScribble: 10,
       Total:
         data &&
